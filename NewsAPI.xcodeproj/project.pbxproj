@@ -128,8 +128,13 @@
 		19C0221B2627E01200EDFEB7 /* NewsAPI */ = {
 			isa = PBXGroup;
 			children = (
-				19C022372627E06500EDFEB7 /* Base */,
 				19C022362627E05A00EDFEB7 /* Model */,
+				19419B69262E768E003C630D /* CoreData */,
+				19419B65262E7617003C630D /* Favorite */,
+				19419B66262E762D003C630D /* Home */,
+				19419B67262E763A003C630D /* Profile */,
+				19937809263117E100E1A034 /* Search */,
+				19C022372627E06500EDFEB7 /* Base */,
 				19C022352627E04B00EDFEB7 /* ViewModel */,
 				19C022342627E04000EDFEB7 /* View */,
 				19C022252627E01400EDFEB7 /* Assets.xcassets */,
@@ -152,10 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				19C022202627E01200EDFEB7 /* ContentView.swift */,
-				19419B67262E763A003C630D /* Profile */,
-				19937809263117E100E1A034 /* Search */,
-				19419B66262E762D003C630D /* Home */,
-				19419B65262E7617003C630D /* Favorite */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,7 +183,6 @@
 			children = (
 				19C0221C2627E01200EDFEB7 /* AppDelegate.swift */,
 				19C0221E2627E01200EDFEB7 /* SceneDelegate.swift */,
-				19419B69262E768E003C630D /* CoreData */,
 			);
 			path = Base;
 			sourceTree = "<group>";
